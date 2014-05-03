@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/dash_bg"
+android:padding="10dp" >
+
+<TextView
+    android:id="@+id/textViewTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:paddingTop="10dp"
+    android:layout_gravity="center"
+    android:typeface="monospace"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:id="@+id/textViewCelcius"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:paddingTop="10dp"
+    android:layout_gravity="center"
+    android:typeface="monospace"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:id="@+id/textViewFarenheit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:layout_gravity="center"
+    android:typeface="monospace"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    android:id="@+id/textViewKelvin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:layout_gravity="center"
+    android:typeface="monospace"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<ImageView
+    android:id="@+id/imageViewIcons"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/desc_weather_icon"
+    android:paddingTop="5dp"
+    android:layout_gravity="center"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+

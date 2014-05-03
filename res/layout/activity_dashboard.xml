@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3f8ff3"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/llOutputForecast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dash_bg">
+	    <TextView 
+	        android:id="@+id/tvOutputTime"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:typeface="monospace"
+	        android:layout_marginTop="20dp"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:gravity="center_horizontal"/>
+	     
+	    <TextView 
+	        android:id="@+id/tvOutputCity"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvOutputTime"
+	        android:layout_marginTop="20dp"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:typeface="monospace"
+	        android:gravity="center_horizontal"
+	        android:text="@string/loading_message"/>
+	    
+	    <TextView 
+	        android:id="@+id/tvOutputTemperature"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvOutputCity"
+	        android:layout_marginTop="20dp"
+	        android:textSize="18sp"
+	        android:textStyle="bold"
+	        android:typeface="monospace"
+	        android:gravity="center_horizontal"/>
+	    
+	    <ImageView 
+        android:id="@+id/imageViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_weather_icon"
+        android:layout_below="@+id/tvOutputTemperature"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+    
+    
+    
+    <TextView 
+        android:id="@+id/tvPersonalMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llOutputForecast"
+       
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:typeface="monospace"
+        android:background="@drawable/dash_bg"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:id="@+id/llDashboardButtons"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/btnMoreWeather"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:background="#000"
+        android:drawableRight="@drawable/cloud"
+        android:text="@string/btn_more_weather"
+        android:textColor="#fff"
+        android:onClick="btnMoreWeatherClick" />
+    
+     <Button
+        android:id="@+id/btnShowList"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:background="#000"
+        android:drawableRight="@drawable/view_list"
+        android:text="@string/btn_lagret_vaer"
+        android:textColor="#fff" />
+</LinearLayout>
+    
+</RelativeLayout>

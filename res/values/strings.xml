@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">WeatherFacts</string>
+    
+    <string name="desc_startup_logo">Applikasjonens start logo</string>
+    <string name="desc_weather_icon">Icon som viser hvordan været er</string>
+    
+    <string name="loading_message">Værmelding kommer her&#8230;</string>
+    
+    <string name="input_username_guide">I inputfeltet under kan du skrive fornavnet ditt, slik at du
+        får en mer personlig brukeropplevelse.</string>
+    <string name="set_username_instructions">Bruk knappene øverst for å navigere.</string>
+        
+    <string name="button_set_username">Lagre</string>
+    <string name="button_skip_username">Senere</string>
+    <string name="btn_lagret_vaer">Lagret Vær</string>
+    <string name="btn_back">&lt; tilbake</string>
+    
+    <string name="lbl_list_header">Tidligere Værmeldinger</string>
+    
+    <string-array name="weather_facts">
+        <item>Solen er en hovedseriestjerne av klasse G og utgjør ca. 99,86 % av massen i solsystemet.</item>
+        <item>Solen er en hovedseriestjerne av klasse G og utgjør ca. 99,86 % av massen i solsystemet.</item>
+        <item>En sky er en synlig mengde kondenserte vanndråper eller iskrystaller i atmosfæren. Vanndråpene i skyer er vanligvis 10 µm store, 
+            og blir synlige når de samles i store mengder.</item>
+        <item>En sky er en synlig mengde kondenserte vanndråper eller iskrystaller i atmosfæren. Vanndråpene i skyer er vanligvis 10 µm store, 
+            og blir synlige når de samles i store mengder.</item>
+        <item>Den største nedbørsmengden som noen gang er målt i løpet av et år i verden er 26.461,7 millimeter. Det er over 26 meter! 
+            Det skjedde i Meghalaya i India i 1860-61.</item>
+        <item>Den største nedbørsmengden som noen gang er målt i løpet av et år i verden er 26.461,7 millimeter. Det er over 26 meter! 
+            Det skjedde i Meghalaya i India i 1860-61.</item>
+        <item>Lyn er det synlige (og i høy grad hørbare!) resultat, når der sker en utladning av gigantiske spenningsforskjeller inne i bygeskyer, 
+            mellom skyer eller mellom sky og jord.</item>
+        <item>Snø dannes vanligvis når vanndamp går gjennom deposisjon høyt i troposfæren ved temperaturer under 0°C. De enkelte snøfillene fester seg til hverandre, 
+            og når snøflakene er tunge nok faller de ned fra skyen. </item>
+        <item>Tåke eller skodde er en sky som er i kontakt med bakken. Den eneste forskjellen mellom skyer og tåker er at tåken er i kontakt med jordoverflaten.</item>
+        
+        <item>Solen er en hovedseriestjerne av klasse G og utgjør ca. 99,86 % av massen i solsystemet.</item>
+        <item>Solen er en hovedseriestjerne av klasse G og utgjør ca. 99,86 % av massen i solsystemet.</item>
+        <item>En sky er en synlig mengde kondenserte vanndråper eller iskrystaller i atmosfæren. Vanndråpene i skyer er vanligvis 10 µm store, 
+            og blir synlige når de samles i store mengder.</item>
+        <item>En sky er en synlig mengde kondenserte vanndråper eller iskrystaller i atmosfæren. Vanndråpene i skyer er vanligvis 10 µm store, 
+            og blir synlige når de samles i store mengder.</item>
+        <item>Den største nedbørsmengden som noen gang er målt i løpet av et år i verden er 26.461,7 millimeter. Det er over 26 meter! 
+            Det skjedde i Meghalaya i India i 1860-61.</item>
+        <item>Den største nedbørsmengden som noen gang er målt i løpet av et år i verden er 26.461,7 millimeter. Det er over 26 meter! 
+            Det skjedde i Meghalaya i India i 1860-61.</item>
+        <item>Lyn er det synlige (og i høy grad hørbare!) resultat, når der sker en utladning av gigantiske spenningsforskjeller inne i bygeskyer, 
+            mellom skyer eller mellom sky og jord.</item>
+        <item>Snø dannes vanligvis når vanndamp går gjennom deposisjon høyt i troposfæren ved temperaturer under 0°C. De enkelte snøfillene fester seg til hverandre, 
+            og når snøflakene er tunge nok faller de ned fra skyen.</item>
+        <item>Tåke eller skodde er en sky som er i kontakt med bakken. Den eneste forskjellen mellom skyer og tåker er at tåken er i kontakt med jordoverflaten.</item>
+    </string-array>
+    <string name="btn_more_weather">Kommende vær</string>
+    <string name="loading_weather">Henter inn værmelding...</string>
+    
+</resources>

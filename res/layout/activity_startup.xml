@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="#3f8ff3"
+    tools:context=".DashBoard" >
+
+    <ImageView 
+        android:id="@+id/imageViewLogo"
+        android:contentDescription="@string/desc_startup_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:background="@drawable/dash_bg"
+        android:textSize="17sp"
+        android:typeface="monospace"
+        android:text="@string/input_username_guide"/>
+    
+    <EditText 
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/btnSkipUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="@string/button_skip_username"
+            android:onClick="setUsername"/>
+        
+        <Button 
+            android:id="@+id/btnSetUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="@string/button_set_username"
+            android:onClick="skipUsername"/>
+        
+    </LinearLayout>
+   
+
+</LinearLayout>
+

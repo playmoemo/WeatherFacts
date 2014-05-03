@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3f8ff3"
+    android:padding="20dp"
+    tools:context=".WeatherForecastActivity" >
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dash_bg"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:gravity="center_horizontal"
+        android:text="@string/loading_weather" />
+    
+   <ListView
+       android:id="@+id/weather_forecast_list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textViewLocation"
+       android:layout_centerHorizontal="true"
+       android:background="@+drawable/dash_bg" >
+   </ListView>
+
+</RelativeLayout>

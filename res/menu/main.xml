@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    
+    <item 
+        android:id="@+id/action_username"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/person"
+        android:title=""/>
+    
+    <item 
+        android:id="@+id/action_mute"
+        android:orderInCategory="50"
+        app:showAsAction="always"
+        android:icon="@drawable/volume_on"
+        android:title=""/>
+    
+    <item 
+        android:id="@+id/action_forecast"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:icon="@drawable/cloud"
+        android:title=""/>
+    
+    
+    <item 
+        android:id="@+id/action_weather_list"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/view_list"
+        android:title=""/>
+
+</menu>
